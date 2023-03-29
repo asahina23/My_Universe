@@ -135,14 +135,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/p-earth.png" : {
+    "\/img\/p-hetlog.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/p-earth.png",
+      "inputAbbreviatedPath" : "\/img\/p-hetlog.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/p-earth.png",
+      "outputAbbreviatedPath" : "\/img\/p-hetlog.jpg",
       "initialSize" : 730,
       "fileType" : 8192
     },
