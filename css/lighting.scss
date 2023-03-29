@@ -36,14 +36,14 @@ shadow-venus    { 0%    { box-shadow: inset 4px    0     2px  rgba(0, 0, 0, 0.5)
 .scaled.view-2D #venus .planet,
 .scaled.view-3D #venus .planet { box-shadow: inset -4px   0     2px  rgba(0, 0, 0, 0.5); /* RIGHT */ }          
 
-/* --------------------------------------------------------------------------- earth ; pos: Right */
+/* --------------------------------------------------------------------------- MyWorld ; pos: Right */
 
-#earth .pos             { left: 100%; top: 50%; }
+#MyWorld .pos             { left: 100%; top: 50%; }
 
-#earth .planet          { animation-name: shadow-earth; }
+# .planet          { animation-name: shadow-MyWorld; }
 
 @keyframes 
-shadow-earth    { 0%    { box-shadow: inset -4px   0     2px  rgba(0, 0, 0, 0.5); /* RIGHT */ }
+shadow-MyWorld    { 0%    { box-shadow: inset -4px   0     2px  rgba(0, 0, 0, 0.5); /* RIGHT */ }
                   25%   { box-shadow: inset 0      0     1px  rgba(0, 0, 0, 0.5); /* TOP */ }
                   50%   { box-shadow: inset 4px    0     2px  rgba(0, 0, 0, 0.5); /* LEFT */ }
                   75%   { box-shadow: inset 24px   -20px 15px rgba(0, 0, 0, 0.5); /* BOTTOM */ }
@@ -51,12 +51,12 @@ shadow-earth    { 0%    { box-shadow: inset -4px   0     2px  rgba(0, 0, 0, 0.5)
                   100%  { box-shadow: inset -4px   0     2px  rgba(0, 0, 0, 0.5); /* RIGHT */ } 
                 }
 
-.scaled.view-2D #earth .planet,
-.scaled.view-3D #earth .planet { box-shadow: inset -4px   0     2px  rgba(0, 0, 0, 0.5); /* RIGHT */ }
+.scaled.view-2D #MyWorld .planet,
+.scaled.view-3D #MyWorld .planet { box-shadow: inset -4px   0     2px  rgba(0, 0, 0, 0.5); /* RIGHT */ }
 
 /* --------------------------------------------------------------------------- moon */
 
-#earth .orbit .pos      { left: 100%; top: 50%; }
+#MyWorld .orbit .pos      { left: 100%; top: 50%; }
 
 /* --------------------------------------------------------------------------- mars ; pos: Bottom */
 
